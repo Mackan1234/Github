@@ -6,3 +6,15 @@ body {
 p {
   color: blue;
 }
+
+li{
+  border: 2px solid white;
+  width: 5%;
+  height: auto;
+  text-decoration: none;
+}
+
+.list{
+  color: #fce100;
+  font-size: 25px;
+}
