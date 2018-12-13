@@ -1,8 +1,8 @@
 /*Använd kommentarer för fan*/
-body {
+body { /*Bakgrund*/
   background-image: url("./images/main-background.jpg");
 }
 
-p {
-  color: blue;
-}
+/*gö en border 1px solid white, runt alla saker i html som
+nav, ul, li, a och div. så vi kan se vad fan som händer*/
+/*sätt också width and height på de så det ser ut som en hemsida*/
