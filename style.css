@@ -1,4 +1,9 @@
 /*Använd kommentarer för fan*/
+
+/*Hover för knapparna*/
+ /*Gö en ul också*/
+ /*sätt några fina färjer på allts*/
+
 body { /*Bakgrund*/
   background-image: url("./images/main-background.jpg");
   /*Gör bakgrunds bilden bra*/
@@ -9,7 +14,7 @@ p {
   /*p existerar inte än*/
   color: blue;
 }
- /*Gö en ul också*/
+
 li{
   /*Knapparna*/
   border: 2px solid white;
