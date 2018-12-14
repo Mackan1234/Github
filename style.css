@@ -4,10 +4,10 @@
  /*Gö en ul också*/
  /*sätt några fina färjer på allts*/
 
-body { /*Bakgrund*/
-  background-image: url("./images/main-background.jpg");
-  /*Gör bakgrunds bilden bra*/
-  background-size:100% 100vh;
+.headerdiv{
+  background-image: url("./Images/header.jpg");
+  width: 100%;
+  height: 300px;
 }
 
 p {
