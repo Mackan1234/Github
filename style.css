@@ -2,22 +2,14 @@
 
 
 
-.headerdiv{
+#headerdiv{
   background-image: url("./Images/header.jpg");
   width: 100%;
   height: 300px;
-}
-
-p {
-  /*p existerar inte än*/
-  color: blue;
+  border: 3px solid black
 }
 
 li{
-  /*Knapparna*/
-  border: 2px solid white;
-  width: 5%;
-  height: auto;
   text-decoration: none;
 }
 
