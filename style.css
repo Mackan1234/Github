@@ -27,6 +27,12 @@ li{
 	text-decoration: none;
 	opacity: 0.95;
 }
+
+.btn:hover{
+	background: #fff200;
+	text-decoration: none;
+}
+
 #div1 {
   background-color: #d4d4d4;
   border: 1px solid black;
@@ -67,9 +73,4 @@ li{
   border: 1px solid black;
   height: 200px;
   width: 49%;
-}
-
-.btn:hover{
-	background: #fff200;
-	text-decoration: none;
 }
