@@ -19,7 +19,7 @@ header{
 	-webkit-border-radius: 28;
 	-moz-border-radius: 28;
 	border-radius: 5px;
-	border: 1px solid #fff200;
+	border: 0px solid #fff200;
 	background:#000000;
 	color:#ffffff;
 	font-family:Tahoma;
@@ -40,34 +40,38 @@ header{
 
 #div1 { /*div float left*/
   background-color: #d4d4d4;
-  border: 1px solid black;
+  border: 0px solid black;
   height: 400px;
-  width: 49%;
+  width: 49.9%;
   float: left;
-  margin-bottom: 1px;
+  margin-bottom: 2px;
+  margin-top: 2px;
 }
 
 #div2 {/*div float right*/
   background-color: #d4d4d4;
-  border: 1px solid black;
+  border: 0px solid black;
   height: 400px;
-  width: 49%;
+  width: 49.9%;
   float: right;
-  margin-bottom: 1px;
+  margin-bottom: 2px;
+  margin-top: 2px;
 }
 
 #div3 {/*div float left*/
   background-color: #d4d4d4;
-  border: 1px solid black;
+  border: 0px solid black;
   height: 400px;
-  width: 49%;
+  width: 49.9%;
   float: right;
+  margin-bottom: 4px;
 }
 
 #div4 {/*div float right*/
   background-color: #d4d4d4;
-  border: 1px solid black;
+  border: 0px solid black;
   height: 400px;
-  width: 49%;
+  width: 49.9%;
   float: left;
+  margin-bottom: 4px;
 }
