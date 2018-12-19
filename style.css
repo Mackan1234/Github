@@ -3,7 +3,9 @@
 /*ADD BOTTOM DIV*/
 /*sätt en bild på varje div och gör bilden mörkare så man kan
 se texten vi lägger över den*/
-
+body {
+  background: black;
+}
 header{
   /*Den första bilden på hemsidan*/
   background-image: url("./Images/header.jpg");
@@ -65,7 +67,7 @@ header{
   height: 400px;
   width: 49.9%;
   float: right;
-  margin-bottom: 4px;
+  margin-bottom: 2px;
 }
 
 #div4 {/*div float right*/
@@ -74,5 +76,49 @@ header{
   height: 400px;
   width: 49.9%;
   float: left;
+  margin-bottom: 2px;
+}
+
+#bigdiv1{ /*big div under the 4 normal divs*/
+  background-color: #d4d4d4;
+  border: 0px solid black;
+  height: 400px;
+  width: 100%;
+  float: left;
+  margin-bottom: 2px;
+
+}
+
+#div5 {/*div float left*/
+  background-color: #d4d4d4;
+  border: 0px solid black;
+  height: 400px;
+  width: 49.9%;
+  float: left;
+  margin-bottom: 2px;
+}
+
+#div6 {/*div float right*/
+  background-color: #d4d4d4;
+  border: 0px solid black;
+  height: 400px;
+  width: 49.9%;
+  float: right;
+  margin-bottom: 2px;
+}
+
+#smalldiv1 {/*small div at the bottom of the page*/
+  background-color: black;
+  border: 0px solid black;
+  height: 25px;
+  width: 100%;
+  float: left;
   margin-bottom: 4px;
+}
+
+#smalldiv1 #smalldiva {
+  float: right;
+  margin-right: 10px;
+  text-transform: capitalize;
+  color: white;
 }
