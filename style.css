@@ -1,6 +1,5 @@
 /*Använd kommentarer för fan*/
 
-/*ADD BOTTOM DIV*/
 /*sätt en bild på varje div och gör bilden mörkare så man kan
 se texten vi lägger över den*/
 body {
@@ -116,7 +115,8 @@ header{
   margin-bottom: 4px;
 }
 
-#smalldiv1 #smalldiva {
+#smalldiv1 #smalldiva {/*small div at the bottom of the page
+  text*/
   float: right;
   margin-right: 10px;
   text-transform: capitalize;
