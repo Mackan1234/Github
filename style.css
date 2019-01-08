@@ -107,18 +107,28 @@ header{
   margin-bottom: 2px;
 }
 
-#smalldiv1 {/*small div at the bottom of the page*/
+#bottomnav { /*info bar at the bottom*/
   background-color: black;
   border: 0px solid black;
-  height: 25px;
+  height: 100px;
   width: 100%;
   float: left;
   margin-bottom: 4px;
 }
 
-#smalldiv1 #smalldiva {
-  float: right;
-  margin-right: 10px;
+#bottomnav #navA {/*info bar text*/
+  float: left;
+  margin-right: 75px;
   text-transform: capitalize;
-  color: white;
+  color: #bfbfbf;
+  text-decoration: none;
+  margin-top: 12px;
+}
+
+#bottomnav #navA:hover {/*info bar text hover*/
+ color: #fff;
+}
+
+#li1 {/*text position*/
+  padding: 30px;
 }
