@@ -111,18 +111,19 @@ header{
   background-color: black;
   border: 0px solid black;
   height: 100px;
-  width: 100%;
+  width: 49%;
   float: left;
   margin-bottom: 4px;
 }
 
 #bottomnav #navA {/*info bar text*/
   float: left;
-  margin-right: 75px;
+  margin-right: 30px;
   text-transform: capitalize;
   color: #bfbfbf;
   text-decoration: none;
   margin-top: 12px;
+  font-family: Arial;
 }
 
 #bottomnav #navA:hover {/*info bar text hover*/
@@ -131,4 +132,17 @@ header{
 
 #li1 {/*text position*/
   padding: 30px;
+}
+#li2 {
+  width: 49%;
+  height: 100px;
+  float: right;
+}
+
+#crtext { /*copyright text in the bottom right corner*/
+  color: #bfbfbf;
+  float: right;
+  margin-top: 13%;
+  margin-right: 1%;
+  font-family: Arial;
 }
