@@ -1,83 +1,102 @@
+body {
+  background: black;
+}
 #header1{
+ height: 340px;
+ margin-bottom: 12px;
+}
 
+#header2{
+  height: 340px;
+  margin-bottom: 12px;
 }
 
 #movie1{
   background-image: url(./movie-covers/movie1.jpg);
   background-size: cover;
   height: 340px;
-  width: 20%;
+  width: 19%;
   float:left;
+  margin-right: 12px;
 }
 
 #movie2{
   background-image: url(./movie-covers/movie2.jpg);
   background-size: cover;
   height: 340px;
-  width: 20%;
-  float: left
+  width: 19%;
+  float: left;
+  margin-right: 12px;
 }
 
 #movie3{
   background-image: url(./movie-covers/movie3.jpg);
   background-size: cover;
   height: 340px;
-  width: 20%;
-  float: left
+  width: 19%;
+  float: left;
+  margin-right: 12px;
 }
 
 #movie4{
   background-image: url(./movie-covers/movie4.jpg);
   background-size: cover;
   height: 340px;
-  width: 20%;
-  float: left
+  width: 19%;
+  float: left;
+  margin-right: 12px;
 }
 
 #movie5{
   background-image: url(./movie-covers/movie5.jpg);
   background-size: cover;
   height: 340px;
-  width: 20%;
-  float: left
+  width: 19%;
+  float: left;
+  margin-right: 4px;
 }
 
 #movie6{
   background-image: url(./movie-covers/movie6.jpg);
   background-size: cover;
   height: 340px;
-  width: 20%;
-  float: left
+  width: 19%;
+  float: left;
+  margin-right: 12px;
 }
 
 #movie7{
   background-image: url(./movie-covers/movie7.png);
   background-size: cover;
   height: 340px;
-  width: 20%;
-  float: left
+  width: 19%;
+  float: left;
+  margin-right: 12px;
 }
 
 #movie8{
   background-image: url(./movie-covers/movie8.jpg);
   background-size: cover;
   height: 340px;
-  width: 20%;
-  float: left
+  width: 19%;
+  float: left;
+  margin-right: 12px;
 }
 
 #movie9{
   background-image: url(./movie-covers/movie9.jpg);
   background-size: cover;
   height: 340px;
-  width: 20%;
-  float: left
+  width: 19%;
+  float: left;
+  margin-right: 12px;
 }
 
 #movie10{
   background-image: url(./movie-covers/movie10.jpg);
   background-size: cover;
   height: 340px;
-  width: 20%;
-  float: left
+  width: 19%;
+  float: left;
+  margin-right: 4px;
 }
