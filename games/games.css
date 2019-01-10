@@ -1,0 +1,12 @@
+body {
+  /*background: black;*/
+}
+
+
+.game1{
+  border: 1px solid black;
+  width: 50%;
+  height: 300px;
+  margin: auto;
+  margin-bottom: 1%;
+}
