@@ -13,7 +13,7 @@ header{
   background-position: center;
   width: 100%;
   height: 300px;
-  border: 0px solid black
+  border: 1px solid #fff200;
 }
 
 /*Knapp*/
@@ -32,6 +32,7 @@ header{
   float: right;
   margin-top: 40%;
   margin-right: 20%;
+  border: 1px solid #fff200;
 }
 
 .btn:hover{
@@ -42,8 +43,9 @@ header{
 /*Add image on every div*/
 
 #div1 { /*div float left*/
-  background-color: #d4d4d4;
-  border: 0px solid black;
+  background-image: url(./Images/xd4.jpeg);
+  background-size: cover;
+  border: 1px solid #fff200;
   height: 400px;
   width: 49.9%;
   float: left;
