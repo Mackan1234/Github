@@ -1,0 +1,83 @@
+#header1{
+
+}
+
+#movie1{
+  background-image: url(./movie-covers/movie1.jpg);
+  background-size: cover;
+  height: 340px;
+  width: 20%;
+  float:left;
+}
+
+#movie2{
+  background-image: url(./movie-covers/movie2.jpg);
+  background-size: cover;
+  height: 340px;
+  width: 20%;
+  float: left
+}
+
+#movie3{
+  background-image: url(./movie-covers/movie3.jpg);
+  background-size: cover;
+  height: 340px;
+  width: 20%;
+  float: left
+}
+
+#movie4{
+  background-image: url(./movie-covers/movie4.jpg);
+  background-size: cover;
+  height: 340px;
+  width: 20%;
+  float: left
+}
+
+#movie5{
+  background-image: url(./movie-covers/movie5.jpg);
+  background-size: cover;
+  height: 340px;
+  width: 20%;
+  float: left
+}
+
+#movie6{
+  background-image: url(./movie-covers/movie6.jpg);
+  background-size: cover;
+  height: 340px;
+  width: 20%;
+  float: left
+}
+
+#movie7{
+  background-image: url(./movie-covers/movie7.png);
+  background-size: cover;
+  height: 340px;
+  width: 20%;
+  float: left
+}
+
+#movie8{
+  background-image: url(./movie-covers/movie8.jpg);
+  background-size: cover;
+  height: 340px;
+  width: 20%;
+  float: left
+}
+
+#movie9{
+  background-image: url(./movie-covers/movie9.jpg);
+  background-size: cover;
+  height: 340px;
+  width: 20%;
+  float: left
+}
+
+#movie10{
+  background-image: url(./movie-covers/movie10.jpg);
+  background-size: cover;
+  height: 340px;
+  width: 20%;
+  float: left
+}
