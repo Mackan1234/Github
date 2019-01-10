@@ -45,7 +45,6 @@ header{
 #div1 { /*div float left*/
   background-image: url(./Images/xd4.jpeg);
   background-size: cover;
-  border: 1px solid #fff200;
   height: 400px;
   width: 49.9%;
   float: left;
