@@ -11,7 +11,16 @@ header{
   background-position: center;
   width: 100%;
   height: 300px;
+  height: 400px;
+  outline: 1px solid #b3aa00;
+  outline-offset: -1px;
 }
+#headerdiv {
+  width: 25%;
+  height: 200px;
+  margin: auto;
+  background-image: url("./Images/test123.png");
+  background-size: 100% 40vh;}
 
 /*Knapp*/
 .btn{
@@ -105,10 +114,7 @@ header{
 #div6 {/*div float right*/
   background-image:url(./images/vader.jpg);
   background-size: cover;
-<<<<<<< HEAD
   background-position: center;
-=======
->>>>>>> 8e5d50828f40ad09095d4a8417435dfa46d1d6a4
   border: 0px solid black;
   height: 400px;
   width: 49.9%;
