@@ -42,7 +42,7 @@ header{
 /*Add image on every div*/
 
 #div1 { /*div float left*/
-  background-image: url(./images/destroyer.jpg);
+  background-image: url(./images/jungel.jpg);
   background-size: cover;
   height: 400px;
   width: 49.9%;
