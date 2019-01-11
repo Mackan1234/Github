@@ -12,18 +12,7 @@ header{
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 400px;
-  outline: 1px solid #b3aa00;
-  outline-offset: -1px;
-}
-
-#headerdiv {
-  width: 25%;
-  height: 200px;
-  margin: auto;
-  background-image: url("./Images/test123.png");
-  background-size: 100% 40vh;
-
+  height: 300px;
 }
 
 /*Knapp*/
@@ -31,6 +20,7 @@ header{
 	-webkit-border-radius: 28;
 	-moz-border-radius: 28;
 	border-radius: 5px;
+	border: 0px solid #fff200;
 	background:#000000;
 	color:#ffffff;
 	font-family:Tahoma;
@@ -41,11 +31,11 @@ header{
   float: right;
   margin-top: 40%;
   margin-right: 20%;
-  border: 1px solid #b3aa00;
+  border: 1px solid #fff200;
 }
 
 .btn:hover{
-	background: #b3aa00;
+	background: #fff200;
 	text-decoration: none;
 }
 
@@ -54,100 +44,74 @@ header{
 #div1 { /*div float left*/
   background-image: url(./images/jungel.jpg);
   background-size: cover;
-  background-position: center;
   height: 400px;
   width: 49.9%;
   float: left;
   margin-bottom: 2px;
   margin-top: 2px;
-  outline: 1px solid #b3aa00;
-  outline-offset: -1px;
 }
 
 #div2 {/*div float right*/
   background-image: url(./images/skepp.jpg);
   background-size: cover;
-  background-position: center;
   border: 0px solid black;
   height: 400px;
   width: 49.9%;
   float: right;
   margin-bottom: 2px;
   margin-top: 2px;
-  outline: 1px solid #b3aa00;
-  outline-offset: -1px;
 }
 
 #div3 {/*div float left*/
   background-image: url(./images/endor.jpg);
   background-size: cover;
-  background-position: center;
   border: 0px solid black;
   height: 400px;
   width: 49.9%;
   float: right;
   margin-bottom: 2px;
-  outline: 1px solid #b3aa00;
-  outline-offset: -1px;
 }
 
 #div4 {/*div float right*/
   background-image: url(./images/öken.jpg);
   background-size: cover;
-  background-position: center;
   border: 0px solid black;
   height: 400px;
   width: 49.9%;
   float: left;
   margin-bottom: 2px;
-  outline: 1px solid #b3aa00;
-  outline-offset: -1px;
 }
 
 #bigdiv1{ /*big div under the 4 normal divs*/
   background-image: url(./Images/xd3.jpg);
   background-size: cover;
-  background-position: center;
   border: 0px solid black;
   height: 400px;
   width: 100%;
   float: left;
   margin-bottom: 2px;
-  outline: 1px solid #b3aa00;
-  outline-offset: -1px;
 
 }
 
 #div5 {/*div float left*/
   background-image: url(./Images/xd1.jpg);
   background-size: cover;
-  background-position: center;
   background-color: #d4d4d4;
   border: 0px solid black;
   height: 400px;
   width: 49.9%;
   float: left;
   margin-bottom: 2px;
-  outline: 1px solid #b3aa00;
-  outline-offset: -1px;
 }
 
 #div6 {/*div float right*/
-<<<<<<< HEAD
   background-image:url(./images/vader.jpg);
   background-size: cover;
-=======
-  background-color: #d4d4d4;
-  background-size: cover;
-  background-position: center;
->>>>>>> 43720e4d013d8eaafc7ef83322165166863885cc
   border: 0px solid black;
   height: 400px;
   width: 49.9%;
   float: right;
   margin-bottom: 2px;
-  outline: 1px solid #b3aa00;
-  outline-offset: -1px;
 }
 
 #bottomnav { /*info bar at the bottom*/
