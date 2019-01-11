@@ -64,6 +64,7 @@ header{
 
 #div3 {/*div float left*/
   background-image: url(./images/falcon.jpg);
+  background-size: cover;
   border: 0px solid black;
   height: 400px;
   width: 49.9%;
@@ -72,7 +73,8 @@ header{
 }
 
 #div4 {/*div float right*/
-  background-color: #d4d4d4;
+  background-image: url(./images/öken.jpg);
+  background-size: cover;
   border: 0px solid black;
   height: 400px;
   width: 49.9%;
