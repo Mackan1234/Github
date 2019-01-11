@@ -1,8 +1,6 @@
 /*Använd kommentarer för fan*/
 
-/*ADD BOTTOM DIV*/
-/*sätt en bild på varje div och gör bilden mörkare så man kan
-se texten vi lägger över den*/
+
 body {
   background: black;
 }
@@ -133,14 +131,9 @@ header{
 }
 
 #div6 {/*div float right*/
-<<<<<<< HEAD
   background-image:url(./images/vader.jpg);
   background-size: cover;
-=======
-  background-color: #d4d4d4;
-  background-size: cover;
   background-position: center;
->>>>>>> 43720e4d013d8eaafc7ef83322165166863885cc
   border: 0px solid black;
   height: 400px;
   width: 49.9%;
