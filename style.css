@@ -52,7 +52,7 @@ header{
 }
 
 #div2 {/*div float right*/
-  background-image: url(./Images/exempel.jpg);
+  background-image: url(./images/exempel.jpg);
   background-size: cover;
   border: 0px solid black;
   height: 400px;
@@ -63,7 +63,7 @@ header{
 }
 
 #div3 {/*div float left*/
-  background-image: url(./Images/at at på endor.jpg);
+  background-image: url(./images/endor.jpg);
   background-size: cover;
   border: 0px solid black;
   height: 400px;
