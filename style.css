@@ -52,7 +52,8 @@ header{
 }
 
 #div2 {/*div float right*/
-  background-color: #d4d4d4;
+  background-image: url(./Images/exempel.jpg);
+  background-size: cover;
   border: 0px solid black;
   height: 400px;
   width: 49.9%;
@@ -80,7 +81,8 @@ header{
 }
 
 #bigdiv1{ /*big div under the 4 normal divs*/
-  background-color: #d4d4d4;
+  background-image: url(./Images/xd3.jpg);
+  background-size: cover;
   border: 0px solid black;
   height: 400px;
   width: 100%;
@@ -90,6 +92,8 @@ header{
 }
 
 #div5 {/*div float left*/
+  background-image: url(./Images/xd1.jpg);
+  background-size: cover;
   background-color: #d4d4d4;
   border: 0px solid black;
   height: 400px;
