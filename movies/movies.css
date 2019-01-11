@@ -100,3 +100,53 @@ body {
   float: left;
   margin-right: 4px;
 }
+#movie1:hover{ /*HOVER*/
+  border: 1px solid yellow;
+  box-sizing: border-box;
+
+}
+#movie2:hover{ /*HOVER*/
+  border: 1px solid yellow;
+  box-sizing: border-box;
+
+}
+#movie3:hover{ /*HOVER*/
+  border: 1px solid yellow;
+  box-sizing: border-box;
+
+}
+#movie4:hover{ /*HOVER*/
+  border: 1px solid yellow;
+  box-sizing: border-box;
+
+}
+#movie5:hover{ /*HOVER*/
+  border: 1px solid yellow;
+  box-sizing: border-box;
+
+}
+#movie6:hover{ /*HOVER*/
+  border: 1px solid yellow;
+  box-sizing: border-box;
+
+}
+#movie7:hover{ /*HOVER*/
+  border: 1px solid yellow;
+  box-sizing: border-box;
+
+}
+#movie8:hover{ /*HOVER*/
+  border: 1px solid yellow;
+  box-sizing: border-box;
+
+}
+#movie9:hover{ /*HOVER*/
+  border: 1px solid yellow;
+  box-sizing: border-box;
+
+}
+#movie10:hover{ /*HOVER*/
+  border: 1px solid yellow;
+  box-sizing: border-box;
+
+}
