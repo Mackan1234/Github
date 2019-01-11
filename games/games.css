@@ -3,7 +3,30 @@ body {
 }
 
 
-.game1{
+#game1{
+  border: 1px solid black;
+  width: 50%;
+  height: 300px;
+  margin: auto;
+  margin-bottom: 1%;
+}
+#game2{
+  border: 1px solid black;
+  width: 50%;
+  height: 300px;
+  margin: auto;
+  margin-bottom: 1%;
+
+}
+
+#game3 {
+  border: 1px solid black;
+  width: 50%;
+  height: 300px;
+  margin: auto;
+  margin-bottom: 1%;
+}
+#game4{
   border: 1px solid black;
   width: 50%;
   height: 300px;
