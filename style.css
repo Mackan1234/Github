@@ -63,7 +63,7 @@ header{
 }
 
 #div3 {/*div float left*/
-  background-color: #d4d4d4;
+  background-image: url(./images/falcon.jpg);
   border: 0px solid black;
   height: 400px;
   width: 49.9%;
