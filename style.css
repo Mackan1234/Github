@@ -42,7 +42,7 @@ header{
 /*Add image on every div*/
 
 #div1 { /*div float left*/
-  background-image: url(./Images/xd4.jpeg);
+  background-image: url(./images/falcon.jpg);
   background-size: cover;
   height: 400px;
   width: 49.9%;
@@ -63,7 +63,7 @@ header{
 }
 
 #div3 {/*div float left*/
-  background-image: url(./images/falcon.jpg);
+  background-image: url(./Images/at at på endor.jpg);
   background-size: cover;
   border: 0px solid black;
   height: 400px;
