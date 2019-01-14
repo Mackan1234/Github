@@ -23,6 +23,14 @@ header {
   background-size: 100% 40vh;
 }
 
+#headerdiv {
+  width: 25%;
+  height: 200px;
+  margin: auto;
+  background-image: url("./Images/test123.png");
+  background-size: 100% 40vh;
+}
+
 /*Knapp*/
 .btn{
 	-webkit-border-radius: 28;
@@ -187,7 +195,7 @@ header {
   border: 1px solid #b3aa00;
   font-style: sans-serif;
   font-size: 17px;
-  
+
   -webkit-animation: move 1.5s;
   -webkit-animation-fill-mode: forwards;
 
