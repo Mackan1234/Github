@@ -10,143 +10,25 @@ body {
   height: 340px;
   margin-bottom: 12px;
 }
+.img1 {
+background-size: cover;
+height: 340px;
+width: 19%;
+float:left;
+margin-right: 12px;}
 
-#movie1{
-  background-image: url(./movie-covers/movie1.jpg);
+.img1:hover{ /*HOVER*/
+  border: 1px solid yellow;
+  box-sizing: border-box; }
+
+
+.img2 {
   background-size: cover;
   height: 340px;
   width: 19%;
   float:left;
-  margin-right: 12px;
-}
+  margin-right: 12px;}
 
-#movie2{
-  background-image: url(./movie-covers/movie2.jpg);
-  background-size: cover;
-  height: 340px;
-  width: 19%;
-  float: left;
-  margin-right: 12px;
-}
-
-#movie3{
-  background-image: url(./movie-covers/movie3.jpg);
-  background-size: cover;
-  height: 340px;
-  width: 19%;
-  float: left;
-  margin-right: 12px;
-}
-
-#movie4{
-  background-image: url(./movie-covers/movie4.jpg);
-  background-size: cover;
-  height: 340px;
-  width: 19%;
-  float: left;
-  margin-right: 12px;
-}
-
-#movie5{
-  background-image: url(./movie-covers/movie5.jpg);
-  background-size: cover;
-  height: 340px;
-  width: 19%;
-  float: left;
-  margin-right: 4px;
-}
-
-#movie6{
-  background-image: url(./movie-covers/movie6.jpg);
-  background-size: cover;
-  height: 340px;
-  width: 19%;
-  float: left;
-  margin-right: 12px;
-}
-
-#movie7{
-  background-image: url(./movie-covers/movie7.png);
-  background-size: cover;
-  height: 340px;
-  width: 19%;
-  float: left;
-  margin-right: 12px;
-}
-
-#movie8{
-  background-image: url(./movie-covers/movie8.jpg);
-  background-size: cover;
-  height: 340px;
-  width: 19%;
-  float: left;
-  margin-right: 12px;
-}
-
-#movie9{
-  background-image: url(./movie-covers/movie9.jpg);
-  background-size: cover;
-  height: 340px;
-  width: 19%;
-  float: left;
-  margin-right: 12px;
-}
-
-#movie10{
-  background-image: url(./movie-covers/movie10.jpg);
-  background-size: cover;
-  height: 340px;
-  width: 19%;
-  float: left;
-  margin-right: 4px;
-}
-#movie1:hover{ /*HOVER*/
+.img2:hover{ /*HOVER*/
   border: 1px solid yellow;
-  box-sizing: border-box;
-
-}
-#movie2:hover{ /*HOVER*/
-  border: 1px solid yellow;
-  box-sizing: border-box;
-
-}
-#movie3:hover{ /*HOVER*/
-  border: 1px solid yellow;
-  box-sizing: border-box;
-
-}
-#movie4:hover{ /*HOVER*/
-  border: 1px solid yellow;
-  box-sizing: border-box;
-
-}
-#movie5:hover{ /*HOVER*/
-  border: 1px solid yellow;
-  box-sizing: border-box;
-
-}
-#movie6:hover{ /*HOVER*/
-  border: 1px solid yellow;
-  box-sizing: border-box;
-
-}
-#movie7:hover{ /*HOVER*/
-  border: 1px solid yellow;
-  box-sizing: border-box;
-
-}
-#movie8:hover{ /*HOVER*/
-  border: 1px solid yellow;
-  box-sizing: border-box;
-
-}
-#movie9:hover{ /*HOVER*/
-  border: 1px solid yellow;
-  box-sizing: border-box;
-
-}
-#movie10:hover{ /*HOVER*/
-  border: 1px solid yellow;
-  box-sizing: border-box;
-
-}
+  box-sizing: border-box; }
