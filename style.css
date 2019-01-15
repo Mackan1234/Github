@@ -17,19 +17,13 @@ header {
 
 #headerdiv {
   width: 25%;
-  height: 200px;
+  height: 100%;
   margin: auto;
   background-image: url("./Images/test123.png");
-  background-size: 100% 40vh;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-#headerdiv {
-  width: 25%;
-  height: 200px;
-  margin: auto;
-  background-image: url("./Images/test123.png");
-  background-size: 100% 40vh;
-}
 
 /*Knapp*/
 .btn{
@@ -59,8 +53,8 @@ header {
 #div1 { /*div float left*/
   background-image: url(./images/jungel.jpg);
   background-size: cover;
-  height: 400px;
-  width: 49.9%;
+  min-height: 400px;
+  min-width: 49.9%;
   float: left;
   margin-bottom: 2px;
   margin-top: 2px;
@@ -71,9 +65,8 @@ header {
 #div2 {/*div float right*/
   background-image: url(./images/skepp.jpg);
   background-size: cover;
-  border: 0px solid black;
-  height: 400px;
-  width: 49.9%;
+  min-height: 400px;
+  min-width: 49.9%;
   float: right;
   margin-bottom: 2px;
   margin-top: 2px;
@@ -84,9 +77,8 @@ header {
 #div3 {/*div float left*/
   background-image: url(./images/endor.jpg);
   background-size: cover;
-  border: 0px solid black;
-  height: 400px;
-  width: 49.9%;
+  min-height: 400px;
+  min-width: 49.9%;
   float: right;
   margin-bottom: 2px;
   outline: 1px solid #b3aa00;
@@ -96,9 +88,8 @@ header {
 #div4 {/*div float right*/
   background-image: url(./images/öken.jpg);
   background-size: cover;
-  border: 0px solid black;
-  height: 400px;
-  width: 49.9%;
+  min-height: 400px;
+  min-width: 49.9%;
   float: left;
   margin-bottom: 2px;
   outline: 1px solid #b3aa00;
@@ -109,9 +100,8 @@ header {
   background-image: url(./Images/xd3.jpg);
   background-size: cover;
   background-position: center;
-  border: 0px solid black;
-  height: 400px;
-  width: 100%;
+  min-height: 400px;
+  min-width: 100%;
   float: left;
   margin-bottom: 2px;
   outline: 1px solid #b3aa00;
@@ -122,9 +112,8 @@ header {
   background-image: url(./Images/xd1.jpg);
   background-size: cover;
   background-color: #d4d4d4;
-  border: 0px solid black;
-  height: 400px;
-  width: 49.9%;
+  min-height: 400px;
+  min-width: 49.9%;
   float: left;
   margin-bottom: 2px;
   outline: 1px solid #b3aa00;
@@ -135,9 +124,8 @@ header {
   background-image:url(./images/vader.jpg);
   background-size: cover;
   background-position: center;
-  border: 0px solid black;
-  height: 400px;
-  width: 49.9%;
+  min-height: 400px;
+  min-width: 49.9%;
   float: right;
   margin-bottom: 2px;
   outline: 1px solid #b3aa00;
@@ -146,9 +134,8 @@ header {
 
 #bottomnav { /*info bar at the bottom*/
   background-color: black;
-  border: 0px solid black;
-  height: 100px;
-  width: 49%;
+  min-height: 100px;
+  min-width: 49%;
   float: left;
   margin-bottom: 4px;
 }
@@ -195,6 +182,7 @@ header {
   border: 1px solid #b3aa00;
   font-style: sans-serif;
   font-size: 17px;
+  opacity: 0.80;
 
   -webkit-animation: move 1.5s;
   -webkit-animation-fill-mode: forwards;
@@ -217,12 +205,16 @@ header {
    to   { bottom: 0;}
 }
 
-.js_a{ /*text on pop-up*/
+#pepe{ /*text on pop-up*/
   text-transform: capitalize;
   color: white;
   margin: 0;
   margin-left: 2%;
   display: block;
+}
+
+.js_a {
+  color: white;
 }
 
 #tralalalala{ /*Button*/
