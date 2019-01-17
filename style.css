@@ -97,9 +97,8 @@ header {
 }
 
 #bigdiv1{ /*big div under the 4 normal divs*/
-  background-image: url(./Images/xd3.jpg);
+  background-image: url(./Images/xd5.jpg);
   background-size: cover;
-  background-position: center;
   min-height: 400px;
   min-width: 100%;
   float: left;
