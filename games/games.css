@@ -67,9 +67,9 @@ body {
   height: 300px;
   margin: auto;
   margin-bottom: 1%;
-  background-image: url(./bilder/battlefront2.jpg);
+  background-image: url(./bilder/oldrepublic.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: top;
   margin-top: 30px;
 }
 #game4{
@@ -78,8 +78,8 @@ body {
   height: 300px;
   margin: auto;
   margin-bottom: 1%;
-  background-image: url(./bilder/battlefront2.jpg);
+  background-image: url(./bilder/forceunl.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: top;
   margin-top: 30px;
 }
