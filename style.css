@@ -15,7 +15,7 @@ header {
   outline-offset: -1px;
 }
 
-#headerdiv {
+#headerdiv { /*Star Wars Logo*/
   width: 25%;
   height: 100%;
   margin: auto;
@@ -24,13 +24,10 @@ header {
   background-repeat: no-repeat;
 }
 
-
-/*Knapp*/
-.btn{
+.btn{ /*Knapp*/
 	-webkit-border-radius: 28;
 	-moz-border-radius: 28;
 	border-radius: 5px;
-	border: 0px solid #fff200;
 	background:#000000;
 	color:#ffffff;
 	font-family:Tahoma;
@@ -41,14 +38,13 @@ header {
   float: right;
   margin-top: 40%;
   margin-right: 20%;
-  border: 1px solid #fff200;
+  border: 1px solid #b3aa00;
 }
-
+/*Knapp Hover*/
 .btn:hover{
-	background: #fff200;
+	background: #b3aa00;
 	text-decoration: none;
 }
-
 
 #div1 { /*div float left*/
   background-image: url(./images/jungel.jpg);
@@ -156,7 +152,7 @@ header {
 #li1 {/*text position*/
   padding: 30px;
 }
-#li2 {
+#li2 { /*the li around copyright text*/
   width: 49%;
   height: 100px;
   float: right;
@@ -170,7 +166,7 @@ header {
   font-family: Arial;
 }
 
-#korv { /*Privacy policy div */
+#korv { /* Accept our Privacy policy, div */
   width: 50%;
   height: 100px;
   margin: auto;
@@ -212,11 +208,11 @@ header {
   display: block;
 }
 
-.js_a {
+.js_a { /*Text color on pop-up window link*/
   color: white;
 }
 
-#tralalalala{ /*Button*/
+#tralalalala{ /*Button on pop-up window*/
   width: 15%;
   height: 30px;
   float: right;
@@ -230,12 +226,12 @@ header {
   color: white;
 }
 
-#tralalalala:hover {
+#tralalalala:hover { /*Button hover on pop-up window*/
   border: 1px solid yellow;
   background: #ccc200;
 }
 
-#korvmedbröd { /*li around text */
+#korvmedbröd { /*li around text inside pop-up window*/
   list-style-type: none;
   margin-top: 5.5%;
 }
