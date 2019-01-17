@@ -9,10 +9,10 @@ body {
   width: 50%;
   margin-left: 25%;
   opacity: 0.9;
+  text-align: center;
 }
 
 .gametitle{
-  text-align: left;
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 5px;
@@ -22,13 +22,11 @@ body {
   font-size:1.2rem;
   padding: 16px 36px;
   text-decoration: none;
-  float: right;
-  margin-right: 28.5%;
+  margin-top: 70px;
   border: 1px solid white;
 }
 
 .gametitle:hover{
-  text-align: left;
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 5px;
@@ -38,9 +36,6 @@ body {
   font-size:1.2rem;
   padding: 16px 36px;
   text-decoration: none;
-  float: right;
-  opacity: 0.8;
-  margin-right: 28.5%;
   border: 1px solid white;
 }
 
@@ -55,25 +50,36 @@ body {
   background-position: center;
 }
 #game2{
-  border: 1px solid black;
+  border: 1px solid white;
   width: 50%;
   height: 300px;
   margin: auto;
   margin-bottom: 1%;
-
+  background-image: url(./bilder/legostarwars.jpg);
+  background-size: cover;
+  background-position: top;
+  margin-top: 30px;
 }
 
 #game3 {
-  border: 1px solid black;
+  border: 1px solid white;
   width: 50%;
   height: 300px;
   margin: auto;
   margin-bottom: 1%;
+  background-image: url(./bilder/battlefront2.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 30px;
 }
 #game4{
-  border: 1px solid black;
+  border: 1px solid white;
   width: 50%;
   height: 300px;
   margin: auto;
   margin-bottom: 1%;
+  background-image: url(./bilder/battlefront2.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 30px;
 }
