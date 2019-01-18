@@ -8,14 +8,18 @@ body {
 height: 400px;
 width: 79%;
 float:right;
-border: 1px solid white;
+border: 1px solid #b3aa00;
 visibility: hidden;
+}
+
+.img1{
+  filter:brightness(90%);
 }
 
 .img1:hover{
 
   box-sizing: border-box;
-  filter: brightness(70%);
+  filter: brightness(35%);
  }
 
 .img1:hover + .div1{
@@ -28,15 +32,17 @@ visibility: hidden;
 height: 400px;
 width: 79%;
 float:right;
-border: 1px solid white;
+border: 1px solid #b3aa00;
 visibility: hidden
+}
 
+.img2{
+  filter:brightness(70%);
 }
 
 .img2:hover{
-
   box-sizing: border-box;
-  filter: brightness(70%);
+  filter: brightness(20%);
  }
 
 .img2:hover + .div2{
@@ -47,14 +53,18 @@ visibility: hidden
 height: 400px;
 width: 79%;
 float:right;
-border: 1px solid white;
+border: 1px solid #b3aa00;
 visibility: hidden;
+}
+
+.img3{
+  filter:brightness(80%);
 }
 
 .img3:hover{
 
   box-sizing: border-box;
-  filter: brightness(70%);
+  filter: brightness(35%);
  }
 
 .img3:hover + .div3{
@@ -65,14 +75,18 @@ visibility: hidden;
 height: 400px;
 width: 79%;
 float:right;
-border: 1px solid white;
+border: 1px solid #b3aa00;
 visibility: hidden;
 }
 
 .img4:hover{
 
   box-sizing: border-box;
-  filter: brightness(70%);
+  filter: brightness(35%);
+ }
+
+ .img4{
+   filter:brightness(90%);
  }
 
 .img4:hover + .div4{
@@ -83,14 +97,18 @@ visibility: hidden;
 height: 380px;
 width: 79%;
 float:right;
-border: 1px solid white;
+border: 1px solid #b3aa00;
 visibility: hidden;
+}
+
+.img5{
+  filter:brightness(70%);
 }
 
 .img5:hover{
 
   box-sizing: border-box;
-  filter: brightness(70%);
+  filter: brightness(30%);
  }
 
 .img5:hover + .div5{
@@ -101,6 +119,6 @@ visibility: hidden;
 
 p{
   color: white;
-  border: 1px solid white;
   float: right;
+  filter: brightness(80%);
 }
