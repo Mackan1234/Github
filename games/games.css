@@ -2,6 +2,8 @@ body {
   background-image: url(./bilder/wallpaper.jpg);
   background-size: cover;
   background-position: center;
+  height: 100%;
+  width: auto;
 }
 
 #bgg{
@@ -41,7 +43,7 @@ body {
 
 #game1{
   border: 1px solid white;
-  width: 50%;
+  width: 325px;
   height: 300px;
   margin: auto;
   margin-bottom: 1%;
@@ -49,9 +51,10 @@ body {
   background-size: cover;
   background-position: center;
 }
+
 #game2{
   border: 1px solid white;
-  width: 50%;
+  width: 325px;
   height: 300px;
   margin: auto;
   margin-bottom: 1%;
@@ -63,7 +66,7 @@ body {
 
 #game3 {
   border: 1px solid white;
-  width: 50%;
+  width: 325px;
   height: 300px;
   margin: auto;
   margin-bottom: 1%;
@@ -74,7 +77,7 @@ body {
 }
 #game4{
   border: 1px solid white;
-  width: 50%;
+  width: 325px;
   height: 300px;
   margin: auto;
   margin-bottom: 1%;
@@ -82,4 +85,55 @@ body {
   background-size: cover;
   background-position: top;
   margin-top: 30px;
+}
+
+#iframetrailer{
+  margin-left: 25%;
+  border: 1px solid white;
+  background-color: black;
+}
+
+.trailerbtn{
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 5px;
+  background:#000000;
+  color:#ffffff;
+  font-family:Tahoma;
+  font-size: 10px;
+  padding: 1px 5px;
+  text-decoration: none;
+  border: 1px solid white;
+  float: left;
+}
+
+.trailerbtn:hover{
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 5px;
+  background: white;
+  color: black;
+  font-family:Tahoma;
+  font-size:10px;
+  padding: 1px 5px;
+  text-decoration: none;
+  border: 1px solid white;
+}
+
+.playbutton{
+  height: auto;
+  width: 150px;
+  opacity: 0;
+  margin-top: 75px;
+}
+
+.playbutton:hover{
+  opacity: 1;
+}
+
+#backg{
+  background: black;
+  height: 500px;
+  width: auto;
+  opacity: 0
 }
