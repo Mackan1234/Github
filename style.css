@@ -224,11 +224,13 @@ header {
 	font-size:1.2rem;
   background: black;
   color: white;
+  border-radius: 3px;
 }
 
 #tralalalala:hover { /*Button hover on pop-up window*/
   border: 1px solid yellow;
   background: #ccc200;
+  border-radius: 3px;
 }
 
 #korvmedbröd { /*li around text inside pop-up window*/
