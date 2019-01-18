@@ -3,15 +3,16 @@ body {
   background: black;
 }
 
+
 .div1{
-height: 340px;
+height: 400px;
 width: 79%;
 float:right;
 border: 1px solid white;
 visibility: hidden;
 }
 
-.img1:hover{ /*Hover 5 first images*/
+.img1:hover{
 
   box-sizing: border-box;
   filter: brightness(70%);
@@ -21,77 +22,82 @@ visibility: hidden;
  visibility: visible;
 }
 
+
+
 .div2{
-height: 340px;
+height: 400px;
 width: 79%;
 float:right;
 border: 1px solid white;
-visibility: hidden;
+visibility: hidden
+
 }
 
-.img2:hover{ /*Hover 5 first images*/
+.img2:hover{
 
   box-sizing: border-box;
   filter: brightness(70%);
  }
 
-.img2:hover + .div1{
+.img2:hover + .div2{
  visibility: visible;
 }
 
 .div3{
-height: 340px;
+height: 400px;
 width: 79%;
 float:right;
 border: 1px solid white;
 visibility: hidden;
 }
 
-.img3:hover{ /*Hover 5 first images*/
+.img3:hover{
 
   box-sizing: border-box;
   filter: brightness(70%);
  }
 
-.img3:hover + .div1{
+.img3:hover + .div3{
  visibility: visible;
 }
 
 .div4{
-height: 340px;
+height: 400px;
 width: 79%;
 float:right;
 border: 1px solid white;
 visibility: hidden;
 }
 
-.img4:hover{ /*Hover 5 first images*/
+.img4:hover{
 
   box-sizing: border-box;
   filter: brightness(70%);
  }
 
-.img4:hover + .div1{
+.img4:hover + .div4{
  visibility: visible;
 }
 
 .div5{
-height: 340px;
+height: 400px;
 width: 79%;
 float:right;
 border: 1px solid white;
 visibility: hidden;
 }
 
-.img5:hover{ /*Hover 5 first images*/
+.img5:hover{
 
   box-sizing: border-box;
   filter: brightness(70%);
  }
 
-.img5:hover + .div1{
+.img5:hover + .div5{
  visibility: visible;
 }
+
+
 
 p{
   color: white;
