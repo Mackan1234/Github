@@ -1,29 +1,29 @@
-body {
+body { /*Differnet background color*/
   background: -webkit-linear-gradient(#1a0066, #000, #1a0066);
   background: -moz-linear-gradient(#1a0066, #000; #1a0066);
   background: -o-linear-gradient(#1a0066, #000, #1a0066);
 }
 
-div {
+div {/*Div with the Lorem text in it*/
   width: 65%;
   height: auto;
   border: 1px solid #404040;
   margin: auto;
 }
 
-p {
+p { /*Lorem text*/
   color: white;
   font-family: serif;
   font-size: 18px;
   margin-left: 5px;
 }
-h1 {
+h1 { /*Terms of Service Title*/
   color: white;
   font-family: sans-serif;
   margin-left: 5px;
 }
 
-#cr {
+#cr {/*copyright text*/
   float: right;
   font-family: sans-serif;
   font-size: 15px;
@@ -56,9 +56,4 @@ h1 {
 #li1 {/*text position*/
   padding: 30px;
   list-style-type: none;
-}
-#li2 {
-  width: 49%;
-  height: 100px;
-  float: right;
 }

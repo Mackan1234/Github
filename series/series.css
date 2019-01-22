@@ -31,3 +31,8 @@ body {
   font-family: sans-serif;
   text-transform: capitalize;
 }
+
+a{ /*text under images*/
+  text-decoration: none;
+  color: yellow;
+}
