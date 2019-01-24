@@ -19,7 +19,7 @@ visibility: hidden;
 .img1:hover{
 
   box-sizing: border-box;
-  filter: brightness(35%);
+  filter: brightness(30%);
  }
 
 .img1:hover + .div1{
@@ -42,7 +42,7 @@ visibility: hidden
 
 .img2:hover{
   box-sizing: border-box;
-  filter: brightness(20%);
+  filter: brightness(30%);
  }
 
 .img2:hover + .div2{
@@ -82,11 +82,11 @@ visibility: hidden;
 .img4:hover{
 
   box-sizing: border-box;
-  filter: brightness(35%);
+  filter: brightness(20%);
  }
 
  .img4{
-   filter:brightness(90%);
+   filter:brightness(70%);
  }
 
 .img4:hover + .div4{
@@ -121,4 +121,5 @@ p{
   color: white;
   float: right;
   filter: brightness(80%);
+  font-size: 20px;
 }
