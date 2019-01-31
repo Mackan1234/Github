@@ -16,7 +16,7 @@ body {
 }
 
 .img1:hover { /*Image hover*/
-  border: 1px solid yellow;
+  border: 1px solid #b3aa00;
   box-sizing: border-box;
   filter: brightness(90%);
 }
@@ -26,7 +26,7 @@ body {
   width: 25%;
   display: inline-block;
   margin-left: 5.5%;
-  color: yellow;
+  color: #b3aa00;
   text-align: center;
   font-family: sans-serif;
   text-transform: capitalize;
@@ -34,5 +34,5 @@ body {
 
 a{ /*text under images*/
   text-decoration: none;
-  color: yellow;
+  color: #b3aa00;
 }
