@@ -99,6 +99,10 @@ header {
   margin-bottom: 2px;
   outline: 1px solid #b3aa00;
   outline-offset: -1px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #div5 {/*div float left*/
