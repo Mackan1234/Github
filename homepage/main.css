@@ -937,7 +937,7 @@ button,
 	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 	background-color: #5d47ec;
 	border-radius: 6px;
-	border: 2px solid #5d47ec;
+	border: 0;
 	color: #ffffff !important;
 	cursor: pointer;
 	display: inline-block;
@@ -948,6 +948,7 @@ button,
 	text-align: center;
 	text-decoration: none;
 	white-space: nowrap;
+	text-shadow: 2px 2px 2px #121212;
 }
 
 	input[type="submit"]:hover,
@@ -995,11 +996,13 @@ button,
 #header h1 {
 	font-size: 3.25em;
 	margin: 0 0 0.55em 0;
+	text-shadow: 4px 4px 4px #121212;
 }
 
 #header p {
 	font-size: 1.35em;
 	line-height: 1.65em;
+	text-shadow: 3px 3px 3px #121212;
 }
 
 #header a {
