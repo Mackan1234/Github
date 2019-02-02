@@ -6,6 +6,15 @@ body {
   width: auto;
 }
 
+#centered{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
 #bgg{
   background-color: black;
   width: 50%;
@@ -88,7 +97,6 @@ body {
 }
 
 #iframetrailer{
-  margin-left: 25%;
   border: 1px solid white;
   background-color: black;
 }
@@ -104,34 +112,8 @@ body {
   padding: 1px 5px;
   text-decoration: none;
   border: 1px solid white;
-  float: left;
-}
-
-.trailerbtn1{
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 5px;
-  background:#000000;
-  color:#ffffff;
-  font-family:Tahoma;
-  font-size: 13px;
-  padding: 1px 5px;
-  text-decoration: none;
-  border: 1px solid white;
-  float: left;
-  margin-left: 22.8%;
-}
-
-.trailerbtn1:hover{
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 5px;
-  background: white;
-  color: black;
-  font-family:Tahoma;
-  padding: 1px 5px;
-  text-decoration: none;
-  border: 1px solid white;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
 
 .trailerbtn:hover{
