@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="sv" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Hemsida</title>
+  </head>
+  <body>
+    <!--The big header with 100%widh-->
+<header><div id="headerdiv"></div></header>
+
+  <!--the four boxes with button in them-->
+  <div id="div1"><a href="movies/movies.html" class="btn">Movies</a></div>
+  <div id="div2"><a href="series/series.html" class="btn">Series</a></div>
+  <div id="div3"><a href="comics/comics.html" class="btn">Comics</a></div>
+  <div id="div4"><a href="games/games.html" class="btn">Games</a></div>
+
+  <!--big boi-->
+  <div id="bigdiv1"></div>
+
+  <!--2 normal divs-->
+  <div id="div5"><a href="https://sv.wikipedia.org/wiki/Star_Wars" class="btn">Wiki</a></div>
+  <div id="div6"><a href="https://www.imdb.com/?ref_=nv_home" class="btn">IMDB</a></div>
+
+
+  <!--navigation bar at the bottom of the page-->
+  <nav id="bottomnav">
+    <li id="li1">
+    <a id="navA" href="TOS/index.html">Terms of Service</a>
+    <a id="navA" href="contact/index.html">Contact Information</a>
+    <a id="navA" href="about/index.html">About</a>
+    <a id="navA" href="privacy/index.html">Privacy Policy</a>
+  </li>
+  </nav>
+  <!--Copyright text-->
+  <li id="li2"><a id="crtext">© 2018-2019 Star Wars All Rights Reserved</a></li>
+
+  <script> // javascript stuff
+    setTimeout(function(){ //display block after 3 seconds of being on the website
+      document.getElementById("korv").style.display = "block";
+    },3000);
+
+     function dogshit() { //display none when pressing ok button
+     document.getElementById("korv").style.display = "none";
+     }
+    </script>
+ <!--OK button-->
+ <div id="korv"><button id="tralalalala" onclick="dogshit();">OK</button>
+
+   <li id="korvmedbröd">
+    <!--text inside pop-up box-->
+   <p id="pepe">Hello please accept our privacy policy or learn more about it <a class="js_a" href="privacy/index.html">Here</a>
+   </li>
+ </p>
+ </div>
+
+ </body>
+</html>
