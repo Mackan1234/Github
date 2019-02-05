@@ -4,18 +4,44 @@
     <meta charset="utf-8">
     <title>Series</title>
     <link rel="stylesheet" type="text/css" href="series.css">
-    <link rel="icon" href="../homepage/icon.png">
   </head>
   <body>
-<header id="Tv-shows">
-  <div class="series1"><a href="https://www.imdb.com/title/tt0458290/?ref_=nv_sr_1"><img class="img1" src="bilder/series1.jpg"></img></div></a>
-  <div class="series1"><a href="https://www.imdb.com/title/tt2930604/?ref_=nv_sr_1"><img class="img1"src="bilder/series2.png"></img></div></a>
-  <div class="series1"><a href="https://www.imdb.com/title/tt8336340/?ref_=nv_sr_1"><img class="img1" src="bilder/series3.jpg"></img></div></a>
-  <!--Text under the images-->
-  <div class="series2"><a href="https://www.imdb.com/title/tt0458290/?ref_=nv_sr_1">Star wars the clone wars</a></div>
-  <div class="series2"><a href="https://www.imdb.com/title/tt0458290/?ref_=nv_sr_1">Star wars Rebels</a></div>
-  <div class="series2"><a href="https://www.imdb.com/title/tt0458290/?ref_=nv_sr_1">Star wars resistance</a></div>
 
-</header>
+<!--image bild och links-->
+<a href="https://www.imdb.com/title/tt0458290/?ref_=nv_sr_1"><img class="test1" src="bilder/series1.jpg"></a></img>
+<a href="https://www.imdb.com/title/tt2930604/?ref_=nv_sr_1"><img class="test1" src="bilder/series2.png"></a></img>
+<a href="https://www.imdb.com/title/tt8336340/?ref_=nv_sr_1"><img class="test1"src="bilder/series3.jpg"></a></img>
+
+<div id="btndiv"> <!--back and next button-->
+<button class="btn1" onclick="plusDivs(-1)">Back</button>
+<button class="btn1" onclick="plusDivs(1)">Next</button>
+</div>
+
+
+<script>
+
+
+var slideIndex = 1; //namn på funktionen och vad den har  för value
+showDivs(slideIndex);
+
+function plusDivs(korv) { // funktionen på slideindex
+  showDivs(slideIndex += korv);
+}
+
+function showDivs(majs) {
+  var i;
+  var x = document.getElementsByClassName("test1");
+  if (majs > x.length) {slideIndex = 1} // om majs är större än gå till bild 1
+  if (majs < 1) {slideIndex = x.length}// om majs är mindre än gå till bild 1
+  for (i = 0; i < x.length; i++) { //loop through all images
+
+    x[i].style.display = "none"; //hide
+  }
+  x[slideIndex-1].style.display = "block"; //show
+}
+
+
+</script>
+
   </body>
 </html>
