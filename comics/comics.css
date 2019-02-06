@@ -16,7 +16,7 @@ a{
 .div1{ /*texten brevid img1*/
 height: 400px;
 width: 79%;
-float:right;
+float: right;
 border: 1px solid #b3aa00;
 visibility: hidden;
 }
@@ -106,7 +106,7 @@ visibility: hidden;
  visibility: visible;
 }
 
-.div5{ /*texten brevid img5*/ 
+.div5{ /*texten brevid img5*/
 height: 380px;
 width: 79%;
 float:right;
