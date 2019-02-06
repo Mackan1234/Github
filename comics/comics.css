@@ -15,120 +15,26 @@ a{
 
 .div1{ /*texten brevid img1*/
 height: 400px;
-width: 79%;
+width: 75%;
 float: right;
 border: 1px solid #b3aa00;
 visibility: hidden;
 }
 
-.img1{ /*första bilden i comics*/
+.img{ /*första bilden i comics*/
   filter:brightness(90%);
+  float: left;
 }
 
-.img1:hover{
+.img:hover{
 
   box-sizing: border-box;
   filter: brightness(30%);
  }
 
-.img1:hover + .div1{
+.img:hover + .div1{
  visibility: visible;
 }
-
-
-
-.div2{ /*texten brevid img2*/
-height: 400px;
-width: 79%;
-float:right;
-border: 1px solid #b3aa00;
-visibility: hidden
-}
-
-.img2{ /*andra bilden i comics*/
-  filter:brightness(70%);
-}
-
-.img2:hover{
-  box-sizing: border-box;
-  filter: brightness(30%);
- }
-
-.img2:hover + .div2{
- visibility: visible;
-}
-
-
-.div3{ /*texten brevid img3*/
-height: 400px;
-width: 79%;
-float:right;
-border: 1px solid #b3aa00;
-visibility: hidden;
-}
-
-.img3{ /*tredje bilden i comics*/
-  filter:brightness(80%);
-}
-
-.img3:hover{
-
-  box-sizing: border-box;
-  filter: brightness(35%);
- }
-
-.img3:hover + .div3{
- visibility: visible;
-}
-
-.div4{ /*texten brevid img4*/
-height: 400px;
-width: 79%;
-float:right;
-border: 1px solid #b3aa00;
-visibility: hidden;
-}
-
-.img4{ /*fjärde bilden i comics*/
-
-  filter:brightness(70%);
-}
-
-.img4:hover{
-
-  box-sizing: border-box;
-  filter: brightness(25%);
- }
-
-
-
-.img4:hover + .div4{
- visibility: visible;
-}
-
-.div5{ /*texten brevid img5*/
-height: 380px;
-width: 79%;
-float:right;
-border: 1px solid #b3aa00;
-visibility: hidden;
-}
-
-.img5{ /*femte bilden i comics*/
-
-  filter:brightness(70%);
-}
-
-.img5:hover{
-
-  box-sizing: border-box;
-  filter: brightness(30%);
- }
-
-.img5:hover + .div5{
- visibility: visible;
-}
-
 
 
 p{
