@@ -24,35 +24,16 @@ video#bgvid {
 	-moz-transform: translateX(-50%) translateY(-50%);
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
-	background: url(polina.jpg) no-repeat;
 	background-size: cover;
 }
 
 /*Position Adjustment*/
-
-@media screen and (max-width: 480px) {
-
-	html, body {
-		min-width: 320px;
-	}
-
-}
 
 html, body {
 	height: 100%;
 	overflow-x: hidden;
 	width: 100%;
 }
-
-/*Position Adjustment*/
-	@media screen and (max-height: 640px) {
-
-		html, body {
-			height: auto;
-			min-height: 100%;
-		}
-
-	}
 
 /*Position Adjustment*/
 body {
@@ -71,69 +52,6 @@ body {
 	background-color: #000;
 	padding: 6em 4em 4em 4em;
 }
-
-	body > * {
-		position: relative;
-		z-index: 2;
-	}
-
-/*Position Adjustment*/
-	@media screen and (max-width: 1680px) {
-
-		body {
-			padding: 6em 3.5em 3.5em 3.5em;
-		}
-
-	}
-
-/*Position Adjustment*/
-	@media screen and (max-width: 736px) {
-
-		body {
-			padding: 5em 2em 2em 2em;
-		}
-
-	}
-
-/*Position Adjustment*/
-	@media screen and (max-width: 360px) {
-
-		body {
-			padding: 5em 1.25em 1.25em 1.25em;
-		}
-
-	}
-
-/*Position Adjustment*/
-			@media screen and (max-width: 1280px) {
-
-				#bg div.visible {
-					-moz-animation: bg 29.25s linear infinite;
-					-webkit-animation: bg 29.25s linear infinite;
-					-ms-animation: bg 29.25s linear infinite;
-					animation: bg 29.25s linear infinite;
-				}
-
-			}
-
-/*Position Adjustment*/
-			@media screen and (max-width: 736px) {
-
-				#bg div.visible {
-					-moz-animation: bg 18s linear infinite;
-					-webkit-animation: bg 18s linear infinite;
-					-ms-animation: bg 18s linear infinite;
-					animation: bg 18s linear infinite;
-				}
-
-			}
-
-		#bg div:only-child {
-			-moz-animation-direction: alternate !important;
-			-webkit-animation-direction: alternate !important;
-			-ms-animation-direction: alternate !important;
-			animation-direction: alternate !important;
-		}
 
 @-moz-keyframes bg {
 	0% {
@@ -211,344 +129,28 @@ body, input, textarea {
 }
 
 	@media screen and (max-width: 1680px) {
-
-		body, input, select, textarea {
-			font-size: 12pt;
-		}
-
-	}
+}
 
 	@media screen and (max-width: 1280px) {
-
-		body, input, select, textarea {
-			font-size: 11pt;
-		}
-
-	}
+}
 
 	@media screen and (max-width: 980px) {
-
-		body, input, select, textarea {
-			font-size: 12pt;
-		}
-
-	}
+}
 
 	@media screen and (max-width: 736px) {
-
-		body, input, select, textarea {
-			font-size: 12pt;
-		}
-
-	}
+}
 
 	@media screen and (max-width: 480px) {
-
-		body, input, select, textarea {
-			font-size: 12pt;
-		}
-
-	}
-
-section.special, article.special {
-	text-align: center;
-}
-
-header p {
-	color: rgba(255, 255, 255, 0.5);
-	position: relative;
-	margin: 0 0 1.5em 0;
-}
-
-header h2 + p {
-	font-size: 1.25em;
-	margin-top: -1em;
-	line-height: 1.5em;
-}
-
-header h3 + p {
-	font-size: 1.1em;
-	margin-top: -0.8em;
-	line-height: 1.5em;
 }
 
 @media screen and (max-width: 980px) {
-
-	header br {
-		display: none;
-	}
-
 }
 
 @media screen and (max-width: 736px) {
-
-	header br {
-		display: inline;
-	}
-
 }
 
 @media screen and (max-width: 480px) {
-
-	header br {
-		display: none;
-	}
-
 }
-
-@-moz-keyframes focus {
-	0% {
-		-moz-transform: scale(1);
-		-webkit-transform: scale(1);
-		-ms-transform: scale(1);
-		transform: scale(1);
-	}
-
-	50% {
-		-moz-transform: scale(1.025);
-		-webkit-transform: scale(1.025);
-		-ms-transform: scale(1.025);
-		transform: scale(1.025);
-	}
-
-	100% {
-		-moz-transform: scale(1);
-		-webkit-transform: scale(1);
-		-ms-transform: scale(1);
-		transform: scale(1);
-	}
-}
-
-@-webkit-keyframes focus {
-	0% {
-		-moz-transform: scale(1);
-		-webkit-transform: scale(1);
-		-ms-transform: scale(1);
-		transform: scale(1);
-	}
-
-	50% {
-		-moz-transform: scale(1.025);
-		-webkit-transform: scale(1.025);
-		-ms-transform: scale(1.025);
-		transform: scale(1.025);
-	}
-
-	100% {
-		-moz-transform: scale(1);
-		-webkit-transform: scale(1);
-		-ms-transform: scale(1);
-		transform: scale(1);
-	}
-}
-
-@-ms-keyframes focus {
-	0% {
-		-moz-transform: scale(1);
-		-webkit-transform: scale(1);
-		-ms-transform: scale(1);
-		transform: scale(1);
-	}
-
-	50% {
-		-moz-transform: scale(1.025);
-		-webkit-transform: scale(1.025);
-		-ms-transform: scale(1.025);
-		transform: scale(1.025);
-	}
-
-	100% {
-		-moz-transform: scale(1);
-		-webkit-transform: scale(1);
-		-ms-transform: scale(1);
-		transform: scale(1);
-	}
-}
-
-@keyframes focus {
-	0% {
-		-moz-transform: scale(1);
-		-webkit-transform: scale(1);
-		-ms-transform: scale(1);
-		transform: scale(1);
-	}
-
-	50% {
-		-moz-transform: scale(1.025);
-		-webkit-transform: scale(1.025);
-		-ms-transform: scale(1.025);
-		transform: scale(1.025);
-	}
-
-	100% {
-		-moz-transform: scale(1);
-		-webkit-transform: scale(1);
-		-ms-transform: scale(1);
-		transform: scale(1);
-	}
-}
-
-input[type="text"],
-input[type="password"],
-input[type="email"],
-select,
-textarea {
-	-moz-appearance: none;
-	-webkit-appearance: none;
-	-ms-appearance: none;
-	appearance: none;
-	-moz-transform: scale(1);
-	-webkit-transform: scale(1);
-	-ms-transform: scale(1);
-	transform: scale(1);
-	-moz-transition: border-color 0.2s ease, background-color 0.2s ease;
-	-webkit-transition: border-color 0.2s ease, background-color 0.2s ease;
-	-ms-transition: border-color 0.2s ease, background-color 0.2s ease;
-	transition: border-color 0.2s ease, background-color 0.2s ease;
-	background-color: transparent;
-	border-radius: 6px;
-	border: none;
-	border: solid 2px rgba(255, 255, 255, 0.35);
-	color: inherit;
-	display: block;
-	outline: 0;
-	padding: 0 1em;
-	text-decoration: none;
-	width: 100%;
-}
-
-	input[type="text"]:invalid,
-	input[type="password"]:invalid,
-	input[type="email"]:invalid,
-	select:invalid,
-	textarea:invalid {
-		box-shadow: none;
-	}
-
-	input[type="text"]:focus,
-	input[type="password"]:focus,
-	input[type="email"]:focus,
-	select:focus,
-	textarea:focus {
-		-moz-animation: focus 0.1s;
-		-webkit-animation: focus 0.1s;
-		-ms-animation: focus 0.1s;
-		animation: focus 0.1s;
-		background-color: rgba(255, 255, 255, 0.125);
-		border-color: #603AD3;
-	}
-
-input[type="text"],
-input[type="password"],
-input[type="email"],
-select {
-	height: 2.75em;
-}
-
-textarea {
-	padding: 0.75em 1em;
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-	-moz-appearance: none;
-	-webkit-appearance: none;
-	-ms-appearance: none;
-	appearance: none;
-	display: block;
-	float: left;
-	margin-right: -2em;
-	opacity: 0;
-	width: 1em;
-	z-index: -1;
-}
-
-	input[type="checkbox"] + label,
-	input[type="radio"] + label {
-		text-decoration: none;
-		color: rgba(255, 255, 255, 0.75);
-		cursor: pointer;
-		display: inline-block;
-		font-size: 1em;
-		font-weight: 400;
-		padding-left: 2.4em;
-		padding-right: 0.75em;
-		position: relative;
-	}
-
-		input[type="checkbox"] + label:before,
-		input[type="radio"] + label:before {
-			-moz-osx-font-smoothing: grayscale;
-			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
-			font-style: normal;
-			font-weight: normal;
-			text-transform: none !important;
-		}
-
-		input[type="checkbox"] + label:before,
-		input[type="radio"] + label:before {
-			background: rgba(255, 255, 255, 0.125);
-			border-radius: 6px;
-			border: solid 2px rgba(255, 255, 255, 0.35);
-			content: '';
-			display: inline-block;
-			height: 1.65em;
-			left: 0;
-			line-height: 1.58125em;
-			position: absolute;
-			text-align: center;
-			top: 0;
-			width: 1.65em;
-		}
-
-	input[type="checkbox"]:checked + label:before,
-	input[type="radio"]:checked + label:before {
-		background: #603AD3;
-		border-color: #603AD3;
-		color: #ffffff;
-		content: '\f00c';
-	}
-
-	input[type="checkbox"]:focus + label:before,
-	input[type="radio"]:focus + label:before {
-		border-color: #603AD3;
-		box-shadow: 0 0 0 2px #603AD3;
-	}
-
-input[type="checkbox"] + label:before {
-	border-radius: 6px;
-}
-
-input[type="radio"] + label:before {
-	border-radius: 100%;
-}
-
-::-webkit-input-placeholder {
-	color: rgba(255, 255, 255, 0.5) !important;
-	opacity: 1.0;
-}
-
-:-moz-placeholder {
-	color: rgba(255, 255, 255, 0.5) !important;
-	opacity: 1.0;
-}
-
-::-moz-placeholder {
-	color: rgba(255, 255, 255, 0.5) !important;
-	opacity: 1.0;
-}
-
-:-ms-input-placeholder {
-	color: rgba(255, 255, 255, 0.5) !important;
-	opacity: 1.0;
-}
-
-.formerize-placeholder {
-	color: rgba(255, 255, 255, 0.5) !important;
-	opacity: 1.0;
-}
-
 /* Button */
 
 input[type="submit"],
